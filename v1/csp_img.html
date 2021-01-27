@@ -2,11 +2,17 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; img-src https://*;">
   <title>西東京倶楽部</title>
 </head>
 <body>
 <p>西東京倶楽部</p>
-<p>CSP未設定</p>
+<p>CSPを設定しました</p>
+<pre>
+&lt;meta http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src https://*;"&gt;
+</pre>
 <img alt="CC" style="border-width:0"
      src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"/>
 </body>
